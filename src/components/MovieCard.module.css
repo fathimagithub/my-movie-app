@@ -1,0 +1,22 @@
+/* MovieCard.module.css */
+.movieCard {
+    background-color: #00ffcc;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgb(0, 253, 228);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-4px);
+    }
+  
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  
+    .movieInfo {
+      padding: 1rem;
+    }
+  }

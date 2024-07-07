@@ -1,0 +1,8 @@
+/* base.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d5c5c;
+    color: #fff;
+  }
